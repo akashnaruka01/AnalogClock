@@ -1,0 +1,38 @@
+#clockdesign{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background : url(analog_clock.png) no-repeat;
+    background-size: 100%;
+    margin:auto;
+}
+
+#hour_hand,#sec_hand,#min_hand{
+    position: absolute;
+    border-radius: 2px;
+    background: black ;
+    transform-origin: bottom;
+}
+
+#hour_hand{
+    height: 30%;
+    width: 2%;
+    top: 21%;
+    right: 49.3%;
+    opacity: 29.4%;
+} 
+
+#min_hand{
+    height: 31%;
+    width: 0.8%;
+    left: 49.6%;
+    top: 20%;
+}
+
+#sec_hand{
+    height: 36%;
+    width: 0.5%;
+    left: 49.6%;
+    top: 14%;
+    opacity: 52.2%;
+}
